@@ -219,37 +219,6 @@
 //
 // strSize("divya sinha");
 //
-//
-// function sumOfMultiple(num) {
-//   var startTime = new Date().getTime();
-//   var sum = 0;
-//   var addition = [];
-//   for (i = 0; i < num; i++) {
-//     if (i % 3 == 0) {
-//       addition.push(i);
-//     }
-//   }
-//
-//   for (i = 0; i < num; i++) {
-//     if (i % 5 == 0 && i % 3 != 0) {
-//       addition.push(i);
-//     }
-//   }
-//   for (i = 0; i < addition.length; i++) {
-//     sum = sum + addition[i];
-//   }
-//   var endTime = new Date().getTime();
-//   console.log('Total time taken ', endTime - startTime)
-//
-//   return sum;
-// }
-//
-// //var result = sumOfMultiple(10);
-// //console.log('Sum of Multiple for 10 is ', result);
-//
-//
-// console.log('%s Sum of Multiple for 10 is  ', new Date(), sumOfMultiple(10));
-// console.log('%s Sum of Multiple for 1000000 is  ', new Date(), sumOfMultiple(100000000));
 
 
 function piggyTotal(quarters, dimes, nickels, pennies){
